@@ -229,7 +229,7 @@ const Index = () => {
           <h2>Tailored Suits and Barong Since 1997</h2>
           <div className="cover-button-container">
             <StyledCoverButton className="coverButton" size="large">
-              Go To Shop
+              <Link href="/shop">Go To Shop</Link>
             </StyledCoverButton>
 
             <StyledCoverButton className="coverButton" size="large">

@@ -29,19 +29,19 @@ const Cover = styled.div`
 
       .coverButton:hover {
         background: #fff;
-        color: black;
+        color: #1d1d1d;
       }
     }
   }
 
   h1 {
-    color: black;
+    color: #1d1d1d;
     font-size: 6em;
     font-family: "Anton", sans-serif;
   }
 
   h2 {
-    color: black;
+    color: #1d1d1d;
     margin-top: -3%;
     margin-bottom: 2%;
   }
@@ -57,7 +57,7 @@ const Section1 = styled.div`
 
   button:hover {
     background: #fff;
-    color: black;
+    color: #1d1d1d;
     border: 0px;
   }
 
@@ -84,7 +84,7 @@ const Section1 = styled.div`
         margin-top: 5%;
       }
       h3 {
-        color: black;
+        color: #1d1d1d;
         font-size: 3em;
       }
       h4 {
@@ -107,7 +107,7 @@ const Section1 = styled.div`
       text-align: center;
 
       h3 {
-        color: black;
+        color: #1d1d1d;
         font-size: 2.6em;
       }
     }
@@ -181,7 +181,7 @@ const Section3 = styled.div`
     }
 
     button {
-      background: black;
+      background: #1d1d1d;
       color: white;
       border: 0px;
       padding-top: 2%;
@@ -191,7 +191,7 @@ const Section3 = styled.div`
 
     button:hover {
       background: #fff;
-      color: black;
+      color: #1d1d1d;
     }
     h1 {
       font-size: 2.9em;
@@ -206,7 +206,7 @@ const Section3 = styled.div`
 
 const StyledCoverButton = styled(Button)`
   color: white;
-  background: black;
+  background: #1d1d1d;
   border: 0px;
   font-size: 1.4em;
   padding: 3% 13% 10% 12%;
@@ -215,7 +215,7 @@ const StyledCoverButton = styled(Button)`
 
 const StyledShopButton = styled(Button)`
   padding: 3% 13% 10% 12%;
-  background: black;
+  background: #1d1d1d;
   color: white;
   border-radius: 0px;
   margin-bottom: 5%;

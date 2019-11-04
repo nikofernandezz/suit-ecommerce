@@ -50,11 +50,11 @@ const MainLayout = styled.div`
     display: flex;
     flex-direction: column;
     align-content: space-around;
-    margin-top: 5%;
+
     padding-left: 2%;
     .trash {
       font-size: 18px;
-      margin-top: 5%;
+      margin-top: 4%;
     }
   }
   #priceRow {
@@ -88,103 +88,7 @@ class Cart extends React.Component {
             </div>
             <div id="detailRow">
               <p>The Avalon Navy Plain Jacket</p>
-              <div>
-                QTY:{" "}
-                <Select
-                  defaultValue="1"
-                  style={{ width: 60 }}
-                  onChange={this.handleChange}
-                >
-                  <Option value="1">1</Option>
-                  <Option value="2">2</Option>
-                  <Option value="3">3</Option>
-                  <Option value="4">4</Option>
-                  <Option value="5">5</Option>
-                  <Option value="6">6</Option>
-                  <Option value="7">7</Option>
-                  <Option value="8">8</Option>
-                </Select>
-              </div>
-              <div>
-                <Icon type="delete" className="trash" />
-              </div>
-            </div>
-            <div id="priceRow">
-              <span>₱7500</span>
-            </div>
-          </div>
-          <hr />
-          <div className="cartItem">
-            <div id="imageRow">
-              <img src="../../static/images/testShirt.jpg" alt="" />
-            </div>
-            <div id="detailRow">
-              <p>The Avalon Navy Plain Jacket</p>
-              <div>
-                QTY:{" "}
-                <Select
-                  defaultValue="1"
-                  style={{ width: 60 }}
-                  onChange={this.handleChange}
-                >
-                  <Option value="1">1</Option>
-                  <Option value="2">2</Option>
-                  <Option value="3">3</Option>
-                  <Option value="4">4</Option>
-                  <Option value="5">5</Option>
-                  <Option value="6">6</Option>
-                  <Option value="7">7</Option>
-                  <Option value="8">8</Option>
-                </Select>
-              </div>
-              <div>
-                <Icon type="delete" className="trash" />
-              </div>
-            </div>
-            <div id="priceRow">
-              <span>₱7500</span>
-            </div>
-          </div>
-          <hr />
-          <div className="cartItem">
-            <div id="imageRow">
-              <img src="../../static/images/testShirt.jpg" alt="" />
-            </div>
-            <div id="detailRow">
-              <p>The Avalon Navy Plain Jacket</p>
-              <div>
-                QTY:{" "}
-                <Select
-                  defaultValue="1"
-                  style={{ width: 60 }}
-                  onChange={this.handleChange}
-                >
-                  <Option value="1">1</Option>
-                  <Option value="2">2</Option>
-                  <Option value="3">3</Option>
-                  <Option value="4">4</Option>
-                  <Option value="5">5</Option>
-                  <Option value="6">6</Option>
-                  <Option value="7">7</Option>
-                  <Option value="8">8</Option>
-                </Select>
-              </div>
-              <div>
-                <Icon type="delete" className="trash" />
-              </div>
-            </div>
-            <div id="priceRow">
-              <span>₱7500</span>
-            </div>
-          </div>
-
-          <hr />
-          <div className="cartItem">
-            <div id="imageRow">
-              <img src="../../static/images/testShirt.jpg" alt="" />
-            </div>
-            <div id="detailRow">
-              <p>The Avalon Navy Plain Jacket</p>
+              <p>Size: Small</p>
               <div>
                 QTY:{" "}
                 <Select

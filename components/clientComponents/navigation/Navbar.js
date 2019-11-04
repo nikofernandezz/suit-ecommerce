@@ -24,7 +24,9 @@ class Navbar extends Component {
       <div>
         <nav className="menuBar">
           <div className="logo">
-            <a href="">Sir Shallum</a>
+            <a href="" style={{ color: "#1d1d1d" }}>
+              Sir Shallum
+            </a>
           </div>
           <div className="menuCon">
             <div className="rightMenu">

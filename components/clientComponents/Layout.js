@@ -34,6 +34,14 @@ const Layout = props => {
 
         @import "~antd/dist/antd.css";
 
+        .ant-popover-message-title {
+          padding-left: 8px;
+        }
+
+        .ant-popover-inner-content {
+          padding: 12px 23px 16px 16px;
+        }
+
         .menuBar {
           padding: 0 20px;
           border-bottom: solid 1px #e8e8e8;

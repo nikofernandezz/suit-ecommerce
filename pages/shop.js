@@ -11,7 +11,7 @@ const MainWrapper = styled.div`
   overflow-x: hidden;
   width: 100%;
   display: flex;
-  padding: 2% 5% 5% 5%;
+  padding: 3% 5% 5% 5%;
 
   .right {
     width: 100%;

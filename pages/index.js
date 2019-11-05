@@ -229,7 +229,9 @@ const Index = () => {
           <h2>Tailored Suits and Barong Since 1997</h2>
           <div className="cover-button-container">
             <StyledCoverButton className="coverButton" size="large">
-              <Link href="/shop">Go To Shop</Link>
+              <Link href="/shop">
+                <a>Go To Shop</a>
+              </Link>
             </StyledCoverButton>
 
             <StyledCoverButton className="coverButton" size="large">
